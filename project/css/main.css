@@ -1,7 +1,28 @@
-<nav class="navbar navbar-inverse" role="navigation">
-  ...
-</nav>
+<-- can I link fonts from fonts.com -->
 
-h1{
-color: orange;
-}
+.orange {color: #F7931E}
+.ltgray {color: #CCCCCC}
+.dkgray {color: #999999}
+
+.header {height:135px; background-color: white;}
+
+.mainnav {height:30px; background-color:#F7931E; margin-top: 20px; margin-bottom: 20px; font-family: Rockwell; color:white; font-size: 2em; font-style: bold}
+
+.intro {background-color: #CCCCCC}
+
+.eventbox {border-style:solid; border-color: #999999; border-width:8px;}
+
+.date {background-color: white; font-family: Helvetica; color:black; font-size: 1.5em; font-weight: bold; margin-bottom:3px; }
+
+.title {background-color: white; font-family: Rockwell; color:orange; font-size: 1.5em; font-weight: bold; margin-bottom:6px;}
+
+.location {background-color: white; font-family: Helvetica; color:black; font-size: 1em; font-style: italic; margin-bottom:6px;} 
+
+.description {background-color: white; font-family: Helvetica; color:black; font-size: 1em; margin-bottom:6px;} 
+
+a:link {background-color: white; font-family: Helvetica; color:#CCCCCC; font-size: .85em; font-style: light; text-decoration: none; margin-bottom:6px;} 
+
+h1 {font-size: 1.5em; font-family: Rockwell, serif; color: orange;}
+
+p {font-size: 1em; font-family: Helvetica, sans-serif;}
+
