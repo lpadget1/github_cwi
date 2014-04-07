@@ -1,0 +1,474 @@
+@charset "UTF-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+	float: left;
+}
+
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		4;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	12;
+	dw-gutter-percentage:	20;
+	
+	Inspiration from "Responsive Web Design" by Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+.fluid {
+	clear: both;
+	margin-left: 0;
+	width: 100%;
+	float: left;
+	display: block;
+}
+
+.fluidList {
+    list-style:none;
+    list-style-image:none;
+    margin:0;
+    padding:0;        
+}
+
+/* Mobile Layout: 480px and below. */
+  
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 86.25%;
+	padding-left: 1.875%;
+	padding-right: 1.875%;
+	clear: none;
+	float: none;
+}
+
+#tagline {
+	display: table-cell;
+	vertical-align: middle;
+	margin-left: 0;
+	width: 100%;
+	height: 50pt;
+	background-color: #666666;
+	text-align: center;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	font-size: 1em;
+	max-height: 50pt;
+
+}
+
+#mainnav {
+	margin-left: 0;
+	margin-bottom: 10px;
+	background-color: #F7931E;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#menuList {
+	margin-left: 0;
+}
+
+.menuItem {
+	margin-left: 4.3478%;
+	color: #FFFFFF;
+	font-family: Rockwell;
+	font-weight: bold;
+	width: 21.7391%;
+	text-align: center;
+	font-size: 1.1em;
+	line-height: 1em;
+	clear: none;
+}
+
+#intro {
+	width: 97%;
+	padding-left: 1.5%;
+	padding-right: 1.5%;
+	padding-bottom: 1.5%;
+	float: left;
+	font-family: Helvetica, Arial, "Helvetica Neue", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+}
+.event {
+	background-color: #FFFFFF;
+	border: medium solid #999999;
+	padding-right: 1.5%;
+	padding-bottom: 1.5%;
+	padding-left: 1.5%;
+	width: 95%;
+}
+
+.eventdate {
+	font-family: Helvetica, Arial, "Helvetica Neue", sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.2em;
+	color: #000000;
+	margin-bottom: 1px;
+}
+.eventtitle {
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	color: #F7931E;
+	font-size: 1.3em;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+.eventlocation {
+	font-family: Helvetica, Arial, "Helvetica Neue", sans-serif;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 1.1em;
+	color: #666666;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+.eventdesc {
+	font-family: Helvetica, Arial, "Helvetica Neue", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.1em;
+	color: #000000;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+.eventlink {
+	font-size: 0.9em;
+	font-weight: lighter;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+#logo {
+	float: left;
+}
+#container {
+	background-color: #CCCCCC;
+}
+
+#submitButton {
+	font-family: Rockwell;
+	font-size: 1em;
+	text-decoration: none;
+	vertical-align: middle;
+	background-color: #FFFFFF;
+	border: 2px solid #F7931E;
+	text-align: center;
+}
+
+#footer {
+	font-family: Helvetica, Arial, "Helvetica Neue", sans-serif;
+	font-size: 0.7em;
+	font-style: normal;
+	font-weight: lighter;
+	color: #000000;
+	text-align:center;
+	background-color: #ffffff;
+}
+
+
+.zeroMargin_mobile {
+margin-left: 0;
+}
+.hide_mobile {
+display: none;
+}
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+
+.gridContainer {
+	width: 88.125%;
+	padding-left: 0.9375%;
+	padding-right: 0.9375%;
+	clear: none;
+	float: none;
+	margin-left: auto;
+}
+
+#tagline {
+	display: table-cell;
+	vertical-align: middle;
+	margin-left: 0;
+	width: 100%;
+	background-color: #666666;
+	text-align: center;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	font-size: 1em;
+	border-left: 1.4% solid #FFFFFF;
+	max-height: 50pt;
+	height: 50pt;
+	position: relative;
+	top: 0;
+	float: left;
+}
+#mainnav {
+	clear: both;
+	margin-left: 0;
+	margin-bottom: 10px;
+	background-color: #F7931E;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#menuList {
+	width: 100%;
+	margin-left: 0;
+}
+.menuItem {
+	clear: both;
+	margin-left: 0;
+	width: 100%;
+
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 1.2em;
+	line-height: 1em;
+	margin-left: 2.1276%;
+	clear: none;
+	width: 23.4042%;
+}
+
+#intro {
+	width: 97%;
+	padding-left: 1.5%;
+	padding-right: 1.5%;
+	padding-bottom: 1.5%;
+	font-family: Helvetica, Arial, "Helvetica Neue", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+	float: left;
+}
+.event {
+	background-color: #FFFFFF;
+	border: thick solid #999999;
+	padding-top: 1.5%;
+	padding-right: 1.5%;
+	padding-bottom: 1.5%;
+	padding-left: 1.5%;
+	width: 95%;
+}
+.eventdate {
+	font-family: Helvetica, Arial, "Helvetica Neue", sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.2em;
+	color: #000000;
+	margin-bottom: 1px;
+}
+.eventtitle {
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	color: #F7931E;
+	font-size: 1.3em;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+.eventlocation {
+	font-family: Helvetica, Arial, "Helvetica Neue", sans-serif;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 1.1em;
+	color: #666666;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+.eventdesc {
+	font-family: Helvetica, Arial, "Helvetica Neue", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.1em;
+	color: #000000;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+.eventlink {
+	font-size: 0.9em;
+	font-weight: lighter;
+}
+
+#submitButton {
+	text-align: center;
+}
+#footer {
+	font-family: Helvetica, Arial, "Helvetica Neue", sans-serif;
+	font-size: 0.7em;
+	font-style: normal;
+	font-weight: lighter;
+	color: #000000;
+	text-align:center;
+	background-color: #ffffff;
+}
+
+.hide_tablet {
+display: none;
+}
+.zeroMargin_tablet {
+margin-left: 0;
+}
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+
+.gridContainer {
+	width: 88.75%;
+	max-width: 1232px;
+	padding-left: 0.625%;
+	padding-right: 0.625%;
+	margin: auto;
+	clear: none;
+	float: none;
+	margin-left: auto;
+}
+#header {
+}
+
+#tagline {
+	/*display: table-cell;*/
+	/*vertical-align: middle;*/
+	margin-left: 1.45%;
+	width: 66.1971%;
+	background-color: #666666;
+	text-align: center;
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	font-size: 1em;
+	border-left: 1.4% solid #FFFFFF;
+	max-height: 104pt;
+	height: 104pt;
+	float: right;
+
+}
+#mainnav {
+	margin-left: 0;
+	clear: both;
+	margin-bottom: 10px;
+	background-color: #F7931E;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#menuList {
+	width: 66.1971%;
+	margin-left: 33.8028%;
+}
+
+.menuItem {
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 1.2em;
+	line-height: 1em;
+	margin-left: 2.1276%;
+	clear: none;
+	width: 23.4042%;
+}
+
+#intro {
+	width: 30%;
+	font-family: Helvetica, Arial, "Helvetica Neue", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+	float: left;
+}
+.event {
+	width: 61%;
+	clear: none;
+}
+.eventdate {
+	font-family: Helvetica, Arial, "Helvetica Neue", sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.2em;
+	color: #000000;
+	margin-bottom: 1px;
+}
+.eventtitle {
+	font-family: Rockwell;
+	font-style: normal;
+	font-weight: bold;
+	color: #F7931E;
+	font-size: 1.3em;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+.eventlocation {
+	font-family: Helvetica, Arial, "Helvetica Neue", sans-serif;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 1.1em;
+	color: #666666;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+.eventdesc {
+	font-family: Helvetica, Arial, "Helvetica Neue", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.1em;
+	color: #000000;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+.eventlink {
+	font-size: 0.9em;
+	font-weight: lighter;
+}
+
+
+
+#footer {
+	font-family: Helvetica, Arial, "Helvetica Neue", sans-serif;
+	font-size: 0.7em;
+	font-style: normal;
+	font-weight: lighter;
+	color: #000000;
+	text-align:left;
+	padding-left: 1.5%;
+	width: 98.5%;
+}
+#submitButton {
+	font-family: Rockwell;
+}
+.zeroMargin_desktop {
+margin-left: 0;
+}
+.hide_desktop {
+display: none;
+}
+}
