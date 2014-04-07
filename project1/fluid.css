@@ -357,7 +357,7 @@ margin-left: 0;
 	/*display: table-cell;*/
 	/*vertical-align: middle;*/
 	margin-left: 1.45%;
-	width: 66.1971%;
+	width: 66%;
 	background-color: #666666;
 	text-align: center;
 	font-family: Rockwell;
@@ -369,7 +369,8 @@ margin-left: 0;
 	max-height: 104pt;
 	height: 104pt;
 	float: right;
-
+	display: inline;
+	clear: none;
 }
 #mainnav {
 	margin-left: 0;
