@@ -154,13 +154,10 @@ img, object, embed, video {
 	margin-bottom: 1px;
 }
 .eventlink {
-	font-family: Helvetica, Arial, "Helvetica Neue", sans-serif;
 	font-size: 0.9em;
 	font-weight: lighter;
 	margin-top: 1px;
 	margin-bottom: 1px;
-	
-
 }
 
 #logo {
@@ -169,15 +166,6 @@ img, object, embed, video {
 #container {
 	background-color: #CCCCCC;
 }
-
-.form {
-	font-family: Helvetica, Arial, "Helvetica Neue", sans-serif;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 1em;
-	color: #000000;
-}
-
 
 #submitButton {
 	font-family: Rockwell;
@@ -326,7 +314,6 @@ display: none;
 	margin-bottom: 1px;
 }
 .eventlink {
-	font-family: Helvetica, Arial, "Helvetica Neue", sans-serif;
 	font-size: 0.9em;
 	font-weight: lighter;
 }
@@ -334,14 +321,6 @@ display: none;
 #submitButton {
 	text-align: center;
 }
-.form {
-	font-family: Helvetica, Arial, "Helvetica Neue", sans-serif;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 1em;
-	color: #000000;
-}
-
 #footer {
 	font-family: Helvetica, Arial, "Helvetica Neue", sans-serif;
 	font-size: 0.7em;
@@ -493,7 +472,6 @@ margin-left: 0;
 	margin-bottom: 1px;
 }
 .eventlink {
-	font-family: Helvetica, Arial, "Helvetica Neue", sans-serif;
 	font-size: 0.9em;
 	font-weight: lighter;
 }
@@ -513,15 +491,6 @@ margin-left: 0;
 #submitButton {
 	font-family: Rockwell;
 }
-
-.form {
-	font-family: Helvetica, Arial, "Helvetica Neue", sans-serif;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 1em;
-	color: #000000;
-}
-
 .zeroMargin_desktop {
 margin-left: 0;
 }
