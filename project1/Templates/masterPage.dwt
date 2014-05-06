@@ -115,7 +115,7 @@ Do the following if you're using your customized build of modernizr (http://www.
     We list only events related to graphic design, since there are already a number of art and culture calendars. <br><br/>
     We rely on DCD readers just like you to help keep the list current. “Take some info and leave some info” is our motto.  </p>
 
-<div id="submitButton" class="fluid"><a href="../Form.html">Submit an event to the calendar</a></div>
+<div id="submitButton" class="fluid"><a href="../form.html">Submit an event to the calendar</a></div>
 </aside>
 
 <article class="fluid event"><!-- TemplateBeginEditable name="ContentArea" -->

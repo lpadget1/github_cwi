@@ -1,0 +1,90 @@
+<manifest alg="2" build="5" opt="false" iceEnabled="true">
+  <folder name="css">
+    <file name="site_global.css" crc="4090055821"/>
+    <file name="master_a-master.css" crc="3810783570" ref="resources:portfolio:index:about:connect"/>
+    <file name="resources.css" crc="296569765" ref="resources"/>
+    <file name="iefonts_resources.css" crc="3900079430" ref="resources"/>
+    <file name="portfolio.css" crc="4205689637" ref="portfolio"/>
+    <file name="iefonts_portfolio.css" crc="3761177481" ref="portfolio"/>
+    <file name="index.css" crc="3967041852" ref="index"/>
+    <file name="iefonts_index.css" crc="3900079430" ref="index"/>
+    <file name="about.css" crc="420359016" ref="about"/>
+    <file name="iefonts_about.css" crc="3900079430" ref="about"/>
+    <file name="connect.css" crc="4168018077" ref="connect"/>
+    <file name="iefonts_connect.css" crc="3900079430" ref="connect"/>
+  </folder>
+  <folder name="assets">
+    <file name="lisapadgett_cv.pdf" crc="154171995" mt="1399178524000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="3828297711" ref="index:about:portfolio:connect:resources"/>
+    <file name="museutils.js" crc="3880880085" ref="index:about:portfolio:connect:resources"/>
+    <file name="pie.js" crc="4147615982" ref="index:about:portfolio:connect"/>
+    <file name="jquery.musemenu.js" crc="32367222" ref="index:about:portfolio:connect:resources"/>
+    <file name="jquery.watch.js" crc="4199601726" ref="index:about:portfolio:connect:resources"/>
+    <file name="webpro.js" crc="33264525" ref="portfolio"/>
+    <file name="musewpslideshow.js" crc="272207905" ref="portfolio"/>
+    <file name="jquery.museoverlay.js" crc="466079611" ref="portfolio"/>
+    <file name="touchswipe.js" crc="261777990" ref="portfolio"/>
+    <file name="musewpdisclosure.js" crc="250538392" ref="portfolio"/>
+  </folder>
+  <folder name="images">
+    <file name="home-favicon.ico" crc="71477512" ref="index"/>
+    <file name="header-logodog.png" crc="503569528" ref="index:about:portfolio:connect:resources"/>
+    <file name="about-favicon.ico" crc="71477512" ref="about"/>
+    <file name="lisaphoto-u486.jpg" crc="231220496" ref="about"/>
+    <file name="icon-cv.png" crc="3887323538" ref="about"/>
+    <file name="portfolio-favicon.ico" crc="71477512" ref="portfolio"/>
+    <file name="portfolio_happybody.jpg" crc="3794544564" ref="portfolio"/>
+    <file name="blank.gif" crc="4208392903" ref="portfolio"/>
+    <file name="portfolio_ettasplace.jpg" crc="116811406" ref="portfolio"/>
+    <file name="portfolio_desiderio.jpg" crc="3821397737" ref="portfolio"/>
+    <file name="portfolio_bournedvd.jpg" crc="388754388" ref="portfolio"/>
+    <file name="portfolio_happybody134x86.jpg" crc="472867896" ref="portfolio"/>
+    <file name="portfolio_ettasplace123x86.jpg" crc="1360040" ref="portfolio"/>
+    <file name="portfolio_desiderio121x86.jpg" crc="508071947" ref="portfolio"/>
+    <file name="portfolio_bournedvd128x86.jpg" crc="4287950498" ref="portfolio"/>
+    <file name="loading.gif" crc="3815509949" ref="portfolio"/>
+    <file name="poster_nowblue.jpg" crc="261041943" ref="portfolio"/>
+    <file name="poster_dolores.jpg" crc="3846389701" ref="portfolio"/>
+    <file name="poster_rrccholiday.jpg" crc="209218920" ref="portfolio"/>
+    <file name="poster_wadpgreen.jpg" crc="430684639" ref="portfolio"/>
+    <file name="poster_rrcccoffee.jpg" crc="3791987476" ref="portfolio"/>
+    <file name="poster_urpmsu.jpg" crc="4290364677" ref="portfolio"/>
+    <file name="poster_nowblue258x199.jpg" crc="515759564" ref="portfolio"/>
+    <file name="poster_dolores244x189.jpg" crc="4079132561" ref="portfolio"/>
+    <file name="poster_rrccholiday254x196.jpg" crc="3919595338" ref="portfolio"/>
+    <file name="poster_wadpgreen218x168.jpg" crc="186505823" ref="portfolio"/>
+    <file name="poster_rrcccoffee240x185.jpg" crc="278370312" ref="portfolio"/>
+    <file name="poster_urpmsu161x125.jpg" crc="4243205064" ref="portfolio"/>
+    <file name="ads-mhdog04.jpg" crc="105168769" ref="portfolio"/>
+    <file name="ads-mhdog01.jpg" crc="394666576" ref="portfolio"/>
+    <file name="ads-mhdog03.jpg" crc="4072478207" ref="portfolio"/>
+    <file name="ads-qc01.jpg" crc="140399046" ref="portfolio"/>
+    <file name="ads-qc02.jpg" crc="4095617792" ref="portfolio"/>
+    <file name="ads-mhdog04112x87.jpg" crc="450002110" ref="portfolio"/>
+    <file name="ads-mhdog01112x87.jpg" crc="3898576472" ref="portfolio"/>
+    <file name="ads-mhdog03112x87.jpg" crc="3824811089" ref="portfolio"/>
+    <file name="ads-qc01112x87.jpg" crc="219869202" ref="portfolio"/>
+    <file name="ads-qc02112x87.jpg" crc="3923613971" ref="portfolio"/>
+    <file name="connect-favicon.ico" crc="71477512" ref="connect"/>
+    <file name="social-facebook.png" crc="370138216" ref="connect"/>
+    <file name="social-facebook-buttonu585-r-fr.png" crc="110080690" ref="connect"/>
+    <file name="social-linkedin.png" crc="4143926855" ref="connect"/>
+    <file name="social-linkedin-buttonu596-r-fr.png" crc="30005704" ref="connect"/>
+    <file name="social-pinterest.png" crc="222092786" ref="connect"/>
+    <file name="social-pinterest-buttonu606-r-fr.png" crc="202603946" ref="connect"/>
+    <file name="social-twitter.png" crc="4290609260" ref="connect"/>
+    <file name="social-twitter-buttonu616-r-fr.png" crc="276030486" ref="connect"/>
+    <file name="resources-favicon.ico" crc="71477512" ref="resources"/>
+    <file name="icon-info.png" crc="4165764304" ref="resources"/>
+    <file name="icon-files.png" crc="354315380" ref="resources"/>
+    <file name="icon-photo.png" crc="4198352308" ref="resources"/>
+    <file name="icon-star.png" crc="261491729" ref="resources"/>
+  </folder>
+  <file name="index.html" crc="536099558" mt="1399337121052" redirect="true"/>
+  <file name="about.html" crc="471963355" mt="1399337645784" redirect="true"/>
+  <file name="portfolio.html" crc="395213827" mt="1399337076399" redirect="true"/>
+  <file name="connect.html" crc="505403775" mt="1399345348883" redirect="true"/>
+  <file name="resources.html" crc="3819585269" mt="1399337620005" redirect="true"/>
+</manifest>
